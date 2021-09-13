@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './footer'
 function Home() {
     return (
       <div>
@@ -20,7 +21,8 @@ Under Development
     <h6 align="center">2.TS SAKKU</h6>
     <img src="https://i.im.ge/2021/09/12/TsgNP8.jpg" className="rounded mx-auto d-block" alt="Sakku" /><br />
     <h6 align="center">3.TS DINESH</h6>
-<img src="https://i.im.ge/2021/09/12/TsgPkh.jpg" className="rounded mx-auto d-block" alt="Dinesh" />
+<img src="https://i.im.ge/2021/09/12/TsgPkh.jpg" className="rounded mx-auto d-block" alt="Dinesh" /><br/>
+<Footer/>
 
 </div>
         )

@@ -1,5 +1,6 @@
 import React from 'react'
 import emailjs from 'emailjs-com';
+import Footer from './components/footer';
 
 function contact(props) {
  const send= function send(e) {
@@ -39,6 +40,7 @@ function contact(props) {
 </div><br />
 <input type="submit" value="Submit" className="btn btn-outline-primary"/>
 </form>
+<Footer/>
         </div>
     )
 }

@@ -26,7 +26,7 @@ function contact(props) {
 <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Eg:577247729" name="uid"/>
   <br/>
   <label htmlFor="exampleDataList" className="form-label">What's Your IG Role?</label>
-<input className="form-control" name="role" list="datalistOptions" id="exampleDataList" placeholder="What's Your IG Role?" />
+<input className="form-control" name="role" list="datalistOptions" id="exampleDataList" placeholder="What's Your IG Role??" />
 <datalist id="datalistOptions">
   <option value="Sniper" />
   <option value="Rusher" />

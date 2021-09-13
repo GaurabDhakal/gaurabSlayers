@@ -16,7 +16,6 @@ function contact(props) {
 
     return (
         <div className="container">
-          <h3 className="mb-20" >This Form will Not Work For Now!!</h3>
           <form onSubmit={send}>
         <div className="mb-3">
   <label htmlFor="exampleFormControlInput1" className="form-label">Email address:</label>

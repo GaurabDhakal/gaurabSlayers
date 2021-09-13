@@ -7,7 +7,7 @@ function contact(props) {
 
     emailjs.sendForm('Gmail', 'template_zf6gy35', e.target, 'user_L2T1HCmWmP1yXeNfXwkL2')
       .then((result) => {
-         alert("Email Sent You will be mailed after review," +result.text);
+         alert("Email Sent You will be mailed after review!!");
       }, (error) => {
           console.log(error.text);
       });

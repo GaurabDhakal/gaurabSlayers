@@ -13,6 +13,7 @@ import Dinesh from './components/abtdinesh'
 import Sakku from './components/abtsakku'
 import Bhoot from './components/abtbhoot'
 import Feedback from './components/feedback';
+import Error404 from './components/error404';
 function App() {
 
   return (
@@ -41,6 +42,9 @@ function App() {
           </Route>
           <Route exact path="/feedback">
             <Feedback/>
+          </Route>
+          <Route exact path="*">
+            <Error404/>
           </Route>
     </Switch>
     </div>

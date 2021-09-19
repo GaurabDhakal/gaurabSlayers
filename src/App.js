@@ -5,10 +5,10 @@ import './App.css';
   Switch,
   Route
 } from "react-router-dom";
-import Navbar from './components/navbar';
-import About from './components/about'
-import Contact from './components/contact';
-import Home from './components/Home';
+import Navbar from './components/navbar.js';
+import About from './components/about.js'
+import Contact from './components/contact.js';
+import Home from './components/Home.js';
 function App() {
 
   return (

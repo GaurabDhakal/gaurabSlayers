@@ -5,16 +5,20 @@ import './App.css';
   Switch,
   Route
 } from "react-router-dom";
-import Navbar from './components/navbar.js';
-import About from './components/about.js'
-import Contact from './components/contact.js';
-import Home from './components/Home.js';
+import Navbar from './components/navbar';
+import About from './components/about'
+import Contact from './components/contact';
+import Home from './components/Home';
+import Dinesh from './components/abtdinesh'
+import Sakku from './components/abtsakku'
+import Bhoot from './components/abtbhoot'
+import Feedback from './components/feedback';
 function App() {
 
   return (
     <>
     <Router>
-    <Navbar title="Learning"/>
+    <Navbar title="Team Slayers"/>
     <div className="container my-3">
     <Switch>
     <Route exact path="/">
@@ -25,6 +29,18 @@ function App() {
           </Route>
           <Route exact path="/apply">
             <Contact/>
+          </Route>
+          <Route exact path="/dinesh">
+            <Dinesh/>
+          </Route>
+          <Route exact path="/sakku">
+            <Sakku/>
+          </Route>
+          <Route exact path="/bhoot">
+            <Bhoot/>
+          </Route>
+          <Route exact path="/feedback">
+            <Feedback/>
           </Route>
     </Switch>
     </div>

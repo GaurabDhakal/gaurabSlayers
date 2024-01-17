@@ -17,7 +17,6 @@ import Error404 from './components/error404';
 function App() {
 
   return (
-    <>
     <Router>
     <Navbar title="Team Slayers"/>
     <div className="container my-3">
@@ -49,7 +48,6 @@ function App() {
     </Switch>
     </div>
     </Router>
-     </>
   );
 }
 

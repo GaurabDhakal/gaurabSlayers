@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
  import {
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route
 } from "react-router-dom";
 import Navbar from './components/navbar';
@@ -20,7 +20,7 @@ function App() {
     <Router>
     <Navbar title="Team Slayers"/>
     <div className="container my-3">
-    <Switch>
+    <Routes>
     <Route exact path="/">
             <Home />
           </Route>
@@ -45,7 +45,7 @@ function App() {
           <Route exact path="*">
             <Error404/>
           </Route>
-    </Switch>
+    </Routes>
     </div>
     </Router>
   );

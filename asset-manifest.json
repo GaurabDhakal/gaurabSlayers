@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/gaurabSlayers/static/css/main.ac7412b4.css",
+    "main.js": "/gaurabSlayers/static/js/main.74629e95.js",
+    "static/js/496.7ccfaa0c.chunk.js": "/gaurabSlayers/static/js/496.7ccfaa0c.chunk.js",
+    "index.html": "/gaurabSlayers/index.html",
+    "main.ac7412b4.css.map": "/gaurabSlayers/static/css/main.ac7412b4.css.map",
+    "main.74629e95.js.map": "/gaurabSlayers/static/js/main.74629e95.js.map",
+    "496.7ccfaa0c.chunk.js.map": "/gaurabSlayers/static/js/496.7ccfaa0c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac7412b4.css",
+    "static/js/main.74629e95.js"
+  ]
+}
